@@ -18,9 +18,7 @@ buildscript {
 
 allprojects {
     repositories {
-        gradlePluginPortal()
         google()
-        maven(url = "https://kotlin.bintray.com/kotlinx/")
         mavenCentral()
         maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
     }
